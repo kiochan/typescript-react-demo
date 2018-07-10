@@ -1,0 +1,40 @@
+{
+  "name": "typescript-react-demo",
+  "version": "0.1.0",
+  "description": "a quick start with typescript + react",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "pack": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiochan/typescript-react-demo.git"
+  },
+  "keywords": [
+    "typescript",
+    "react"
+  ],
+  "author": "kiochan",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chrome": "0.0.69",
+    "@types/node": "^10.5.2",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.3",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
