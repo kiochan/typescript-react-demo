@@ -11,8 +11,6 @@ interface HelloState {
 
 export default class Hello extends React.Component<HelloProps, HelloState> {
 
-  private intervalHandle:number
-
   constructor(props:HelloProps) {
     super(props)
     this.state = {
